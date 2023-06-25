@@ -1,0 +1,51 @@
+DrawMarker(36, currentGarage.putVehicle.x, currentGarage.putVehicle.y, currentGarage.putVehicle.z, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.6, 0.2, 0.6, 255, 0, 0, 255, false, false, false, true, false, false, false)
+
+Parameter pertama (36): Ini adalah ID unik untuk marker yang akan digambar. ID ini digunakan untuk mengidentifikasi marker secara unik di lingkungan simulasi.
+
+Parameter kedua (currentGarage.putVehicle.x): Ini adalah koordinat X dari marker. Parameter ini menentukan posisi horizontal (sumbu X) dari marker di lingkungan simulasi.
+
+Parameter ketiga (currentGarage.putVehicle.y): Ini adalah koordinat Y dari marker. Parameter ini menentukan posisi vertikal (sumbu Y) dari marker di lingkungan simulasi.
+
+Parameter keempat (currentGarage.putVehicle.z): Ini adalah koordinat Z dari marker. Parameter ini menentukan posisi kedalaman (sumbu Z) dari marker di lingkungan simulasi.
+
+Parameter kelima (0.0): Ini adalah rotasi sudut X dalam derajat. Parameter ini menentukan rotasi marker terhadap sumbu X.
+
+Parameter keenam (0.0): Ini adalah rotasi sudut Y dalam derajat. Parameter ini menentukan rotasi marker terhadap sumbu Y.
+
+Parameter ketujuh (0.0): Ini adalah rotasi sudut Z dalam derajat. Parameter ini menentukan rotasi marker terhadap sumbu Z.
+
+Parameter kedelapan (0.0): Ini adalah skala X dari marker. Parameter ini menentukan skala marker pada sumbu X.
+
+Parameter kesembilan (0.0): Ini adalah skala Y dari marker. Parameter ini menentukan skala marker pada sumbu Y.
+
+Parameter kesepuluh (0.0): Ini adalah skala Z dari marker. Parameter ini menentukan skala marker pada sumbu Z.
+
+Parameter kesebelas (0.8): Ini adalah nilai warna merah (R) untuk marker. Parameter ini menentukan komponen warna merah dari penanda yang akan digambar (dalam rentang 0.0 hingga 1.0).
+
+Parameter kedua belas (0.2): Ini adalah nilai warna hijau (G) untuk marker. Parameter ini menentukan komponen warna hijau dari penanda yang akan digambar (dalam rentang 0.0 hingga 1.0).
+
+Parameter ketiga belas (0.8): Ini adalah nilai warna biru (B) untuk marker. Parameter ini menentukan komponen warna biru dari penanda yang akan digambar (dalam rentang 0.0 hingga 1.0).
+
+Parameter keempat belas (255): Ini adalah nilai alfa (transparansi) untuk marker. Parameter ini menentukan tingkat transparansi penanda yang akan digambar (dalam rentang 0 hingga 255, di mana 0 adalah transparan dan 255 adalah tidak transparan).
+
+Parameter kelima belas (255): Ini adalah nilai warna merah (R) untuk tepi marker. Parameter ini menentukan komponen warna merah dari tepi penanda yang akan digambar (dalam rentang 0 hingga 255).
+
+Parameter keenam belas (255): Ini adalah nilai warna hijau (G) untuk tepi marker. Parameter ini menentukan komponen warna hijau dari tepi penanda yang akan digambar (dalam rentang 0 hingga 255).
+
+Parameter ketujuh belas (255): Ini adalah nilai warna biru (B) untuk tepi marker. Parameter ini menentukan komponen warna biru dari tepi penanda yang akan digambar (dalam rentang 0 hingga 255).
+
+Parameter kedelapan belas (255): Ini adalah nilai alfa (transparansi) untuk tepi marker. Parameter ini menentukan tingkat transparansi tepi penanda yang akan digambar (dalam rentang 0 hingga 255).
+
+Parameter kesembilan (false): Ini adalah parameter boolean yang menentukan apakah marker akan terlihat di atas objek lain atau tidak.
+
+Parameter kesepuluh (false): Ini adalah parameter boolean yang menentukan apakah marker akan dirotasi bersama kamera atau tidak.
+
+Parameter kesebelas (false): Ini adalah parameter boolean yang menentukan apakah marker akan mengikuti rotasi dunia atau tidak.
+
+Parameter kedua belas (true): Ini adalah parameter boolean yang menentukan apakah marker akan mengikuti perspektif kamera atau tidak.
+
+Parameter ketiga belas (false): Ini adalah parameter boolean yang menentukan apakah marker akan terlihat hanya ketika dekat dengan pemain atau tidak.
+
+Parameter keempat belas (false): Ini adalah parameter boolean yang menentukan apakah marker akan terlihat hanya ketika jauh dari pemain atau tidak.
+
+Dengan menggunakan fungsi ini dan mengatur parameter yang sesuai, Anda dapat menggambar marker dengan warna, posisi, rotasi, dan properti lain yang diinginkan di lingkungan simulasi atau permainan.
